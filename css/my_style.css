@@ -1,0 +1,92 @@
+.form_login{
+    margin-top: 100px
+}
+.form_login > div:first-child header{
+    background-color: #3d3c3d;
+    padding: 30px
+}
+.form_login > div:first-child header strong{
+    color: #acacac;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.form_login > div:first-child header em{
+    color: #7a7979;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 10px
+}
+.form_login > div:first-child header img{
+    width: 50px;
+    height: 50px
+}
+.form_login > div:first-child section{
+    background-color: rgba(77,74,75,.85);
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+.form_login > div:first-child section .form-control{
+    width: 100%;
+    height: 45px;
+    border: #4d4a4b 1px solid;
+    margin-bottom: 10px
+}
+.form_login > div:first-child section textarea{
+    border: #4d4a4b 1px solid;
+    height: 150px
+}
+.form_login > div:first-child section input[type=submit]{
+    width: 100%;
+    height: 45px;
+    background-color: #e28e41;
+    color: white;
+    font-weight: bold
+}
+.form_login > div:first-child section p{
+    text-align: center;
+    color: #999899;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 25px
+}
+.form_login > div:first-child section p a{
+    color: #e28e41;
+    font-weight: bold;
+    text-decoration: underline
+}
+.form_login > div:nth-child(2){
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 25px
+}
+.form_login > div:nth-child(2) strong{
+    color: white;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+.form_login > div:nth-child(2) p{
+    text-align: center;
+    color: #999899;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    margin-top: 25px;
+    padding-bottom: 25px
+}
+.form_login > div:nth-child(2) input{
+    color: white;
+}
+body > header{
+    background-color: #3d3c3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+body > header .sigle img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%
+}
